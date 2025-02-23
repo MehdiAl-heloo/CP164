@@ -1,0 +1,121 @@
+"""
+-------------------------------------------------------
+Lab 4 Testing
+-------------------------------------------------------
+Author:  Mehdi Al-heloo
+ID:      169063997
+Email:   alhe3997@mylaurier.ca
+Version: 2024-02-03
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Name:       Test
+Origin:     Chinese
+Vegetarian: None
+Calories:   None
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Test
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+List:
+1
+2
+3
+1
+2
+The index of the first occurrence of '2': 1
+The value found for '3': 3
+Is '2' in the list? True
+The count of '1' in the list: 2
+Max value in the list: 3
+Min value in the list: 1
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+2
+1
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+List after array_to_list:
+1 2 3 4 5 
+Python list after list_to_array: [1, 2, 3, 4, 5]
+List is empty: None
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+the list should be empty True
+is empty false now: False
+insert a food at index 0
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+
+Max food:
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+
+Min food:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+
+Find any instances Lasagna:
+Does it contain key: True
+Count: 1
+remove Lasagna Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+
+update the list at index 1
+the first variable in the list is Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+
+Name:       Test Food
+Origin:     Chinese
+Vegetarian: True
+Calories:   100
+
+the index Test Food is 0
+
+Find Test Food:
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272

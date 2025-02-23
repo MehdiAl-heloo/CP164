@@ -1,0 +1,28 @@
+"""
+-------------------------------------------------------
+Lab 2 Testing
+-------------------------------------------------------
+Author:  Mehdi Al-heloo
+ID:      169063997
+Email:   alhe3997@mylaurier.ca
+Version: 2024-01-20
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+Utility Testing
+-------------------------------------------------------
+<Stack_array.Stack object at 0x000002622D665040>
+Initial stack is empty: True
+Pushing a value. Now is_empty should be false: False
+Value pushed: Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+Pop that value: Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+The stack should be empty again: True
+<Stack_array.Stack object at 0x000002622D665040>
