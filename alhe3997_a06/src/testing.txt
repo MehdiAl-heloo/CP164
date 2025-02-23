@@ -1,0 +1,77 @@
+"""
+-------------------------------------------------------
+Assignment 6 Testing
+-------------------------------------------------------
+Author:  Mehdi Al-heloo
+ID:      169063997
+Email:   alhe3997@mylaurier.ca
+Version: 2024-02-17
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Queue should be empty:  True
+Inserting into Queue:
+Inserting 0 into queue
+Inserting 1 into queue
+Inserting 2 into queue
+Inserting 3 into queue
+Inserting 4 into queue
+Is_empty should be false now: False
+Length of queue now: 5
+Peeking queue, front value: 0
+Removing front value, value removed: 0
+New queue, q1 should be empty: True
+Moved front node from queue to rear of q1, q1 rear value: 
+1
+Appending the rest of queue to q1
+q1 now: 
+1 2 3 4 
+Combining two queues (q1 and q2) into 'queue'.
+Final combined queue (should alternate between q1 and q2 elements):
+0 1 2 3 4 
+Splitting the combined queue back into two queues:
+Contents of q1:
+0 2 4 
+Contents of q2:
+1 3 
+Checking equality of two queues:
+Are q1 and q2 equal? True
+Are q1 and q2 equal after modifying q2? False
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Inserted 5 into pq1
+Inserted 3 into pq1
+Inserted 9 into pq1
+Inserted 1 into pq1
+Inserted 4 into pq1
+Inserted 8 into pq2
+Inserted 2 into pq2
+Inserted 6 into pq2
+Inserted 7 into pq2
+Inserted 0 into pq2
+Removed value from pq1: 1
+Peeked value in pq1: 3
+Is pq1 empty? False
+Length of pq1: 4
+Values in target1 after split_alt: [0, 6, 8]
+Values in target2 after split_alt: [2, 7]
+Values in target3 after split_key with key = 5: [0, 2]
+Values in target4 after split_key with key = 5: [6, 7, 8]
+Values in combined_pq after combining pq1 and target4: [3, 4, 5, 6, 7, 8, 9]
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Inserting values at rear of deque:
+1 2 3 4 5 
+Inserting values at front of deque:
+-4 -3 -2 -1 0 1 2 3 4 5 
+Removed from front: -4
+Removed from rear: 5
+Peek front: -3, Peek rear: 4
+Deque is_empty should be False: False
+Length of the deque: 8
+Deques equal: False
+

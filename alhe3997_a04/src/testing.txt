@@ -1,0 +1,94 @@
+"""
+-------------------------------------------------------
+Assignment 4 Testing
+-------------------------------------------------------
+Author:  Mehdi Al-heloo
+ID:      169063997
+Email:   alhe3997@mylaurier.ca
+Version: 2024-02-03
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Check empty should be true: True
+Is full should be false: False
+Inserted f1, peek it: Name:       Food1
+Origin:     Chinese
+Vegetarian: True
+Calories:   1
+
+Length: 1
+Inserted f2, queue should now be full: True
+It should not be empty: False
+Removed the front value Name:       Food1
+Origin:     Chinese
+Vegetarian: True
+Calories:   1
+
+Name:       Food2
+Origin:     Indian
+Vegetarian: True
+Calories:   2
+
+Name:       Food3
+Origin:     Ethiopian
+Vegetarian: False
+Calories:   3
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+queue1 and queue2 are equal.
+queue1 and queue3 are not equal.
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Target1 contains:
+0
+2
+4
+6
+8
+Target2 contains:
+1
+3
+5
+7
+9
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Target 1 Queue:
+0
+2
+4
+6
+8
+Target 2 Queue:
+1
+3
+5
+7
+9
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Key: 3
+Target 1 Queue:
+1
+2
+Target 2 Queue:
+4
+5
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+key 3
+Priority Queue with values higher than key:
+4
+5
+Priority Queue with values lower than or equal to key:
+1
+2
+
+

@@ -1,0 +1,113 @@
+"""
+-------------------------------------------------------
+Assignment 2 Testing
+-------------------------------------------------------
+Author:  Mehdi Al-heloo
+ID:      169063997
+Email:   alhe3997@mylaurier.ca
+Version: 2024-01-20
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   800
+
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   800
+
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+
+Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   200
+
+Average Calories: 400.0
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+food1 = Food("Orange Chicken", 1, False, 800)
+food2 = Food("Spring Rolls", 1, True, 200)
+food3 = Food("Teppanyaki", 6, False, 200)
+
+foods = [food1, food2, food3]
+
+by_origin = calories_by_origin(foods, 1)
+
+output:
+500.0
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+
+
+Food                                Origin       Vegetarian Calories
+----------------------------------- ------------ ---------- --------
+Orange Chicken                      Chinese      False      800
+Spring Rolls                        Chinese      True       200
+Teppanyaki                          Japanese     False      200
+
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Food list:
+
+food1 = Food("Orange Chicken", 1, False, 800)
+food2 = Food("Spring Rolls", 1, True, 200)
+food3 = Food("Teppanyaki", 6, False, 200)
+
+
+requirement and output:
+
+result = food_search(foods, -1, 0, True)
+
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+
+result = food_search(foods, -1, 0, False)
+
+Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   800
+
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+
+Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   200
+
+result = food_search(foods, -1, 200, False)
+
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+
+Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   200
